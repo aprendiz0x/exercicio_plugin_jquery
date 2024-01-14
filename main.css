@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    margin: 25px 25px;
+}
+.separador {
+    display: flex;
+}
+.container {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.formulario {
+    max-width: 400px;
+    width: 100%;
+}
+
+
+form {
+    margin-left: 25px;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+form label {
+    font-weight: bold;
+    color: white;
+}
+
+form input {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 280px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 15px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.elementosForm {
+    margin: 15px 0;
+}
+
+.agenda {
+    margin-left: 15px;
+    max-width: 100%;
+}
+.tabela-cadastro {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.tabela-cadastro thead {
+    background-color: #4CAF50;
+    color: white;
+}
+.tabela-cadastro th, .tabela-cadastro td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.tabela-cadastro tr:nth-child(even) {
+    background-color: #000;
+}
+.tabela-cadastro tr:hover {
+    background-color: #000;
+}
